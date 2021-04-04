@@ -1,0 +1,1 @@
+Sample website built using React, CSS, JS, and Bootstrap.  The website is a front end display with the except of the chat bot and subscription that works with a API via Axios.  
