@@ -1,0 +1,58 @@
+.process{
+    width: 100%;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #000;
+}
+
+.process .undershade{
+    clip-path: polygon(0 0, 100% 0%, 100% 74%, 50% 100%, 0 73%);
+    background: #181818;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.process-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.process-title>p{
+    color: #fff;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    max-width:  500px;
+}
+
+
+.process-steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    margin-top: 50px;
+}
+
+.process-connector{
+    width: 70%;
+    height: 1px;
+    border: 1px dotted #DDDDDD;
+    position: absolute;
+    z-index: -1;
+    top: 80px;
+}
+
+.process-steps > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 350px;
+}

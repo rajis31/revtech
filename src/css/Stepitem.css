@@ -1,0 +1,14 @@
+.stepitem{
+    font-size: 50px;
+    background: #11161a;
+    color: #fff;
+    border: 2px solid #f02700;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+
