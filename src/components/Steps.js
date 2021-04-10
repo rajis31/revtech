@@ -1,6 +1,7 @@
 import React from 'react';
 import Stepitem from './Stepitem';
 import Stepdescription from './Stepdescription';
+import Custombutton from './Custombutton';
 import '../css/Steps.css';
 import {HiOutlineLightBulb} from 'react-icons/hi';
 import {AiOutlineAntDesign} from 'react-icons/ai';
@@ -9,7 +10,7 @@ import {IoIosBuild} from 'react-icons/io';
 const Steps = function(props){
         return (
         <div className="process">
-                <div className="undershade">
+            <div className="undershade">
                 <div className="process-title">
                     <p>Three easy steps to your success</p>
                 </div>
@@ -45,6 +46,9 @@ const Steps = function(props){
                                     the demands of an ever changing environment. Ongoing support is provided even after the project built."
                     />
                     </div>
+                </div>
+                <div className="btn">
+                     <Custombutton link="#" text="Contact Us"></Custombutton>
                 </div>
             </div>
 
