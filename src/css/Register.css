@@ -1,0 +1,51 @@
+.register{
+    background-color: #fff;
+    height: 800px;
+}
+
+
+.register-undershade{
+    clip-path: polygon(0 0, 100% 0%, 100% 74%, 50% 100%, 0 73%);
+    background: url("../images/register.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+
+.register-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgba(255,84,31,1),rgba(255,84,31,.8));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.register-banner{
+    max-width: 500px;
+}
+
+.register h2{
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 400px;
+}
+
+.register h3{
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 90px;
+    line-height: 100px;
+    max-width: 500px;
+
+}
+
+.register-form-section{
+    max-width: 500px;
+}

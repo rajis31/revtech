@@ -4,15 +4,18 @@ import Alertbox from './components/Alertbox';
 import Speed from './components/Speed';
 import Steps from './components/Steps';
 import Services from './components/Services';
+import Register from "./components/Register";
+import TestSection from "./components/TestSection";
 
 export default function App(){
     return (
         <div>
            <Header {...{brand:"RevTech"}}></Header>
            <Alertbox {...{message:"This is a prototype built using React"}}></Alertbox>
-           <Speed></Speed>
-           <Steps></Steps>
-           <Services></Services>
+           <Speed />
+           <Steps />
+           <Services />
+           <Register />
         </div>
     );
 }

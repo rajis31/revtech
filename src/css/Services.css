@@ -1,7 +1,13 @@
 .services{
     width: 100%;
+    background-color: rgba(255,84,31,1);
+    padding-bottom: 150px;
+}
+
+.services-undershade{
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 50% 100%, 0 86%);
     background-color: #000;
-    padding-bottom: 50px;
+    padding-bottom: 400px;
 }
 
 .services .title{
