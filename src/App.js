@@ -5,7 +5,7 @@ import Speed from './components/Speed';
 import Steps from './components/Steps';
 import Services from './components/Services';
 import Register from "./components/Register";
-import TestSection from "./components/TestSection";
+import Team from "./components/Team";
 
 export default function App(){
     return (
@@ -16,6 +16,7 @@ export default function App(){
            <Steps />
            <Services />
            <Register />
+           <Team />
         </div>
     );
 }

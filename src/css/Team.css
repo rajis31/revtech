@@ -1,0 +1,54 @@
+.team{
+    margin-top: 150px;
+}
+
+.team-title{
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.individual{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.individual-name{
+    font-weight: 500;
+    color: #000000;
+    line-height: 27px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.job-description{
+    font-size: 16px;
+    max-width: 300px;
+    color: #AAAAAA;
+
+}
+
+.team-grid img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .team-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
