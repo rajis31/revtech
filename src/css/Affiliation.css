@@ -1,0 +1,60 @@
+.affiliation{
+    height: 250px;
+    background-color: rgb(34, 28, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.affiliation-grid {
+    display: flex;
+    flex-direction: row;
+    min-width: 1000px;
+    justify-content: space-around;
+    text-align: center;
+    color: #A9A9A9;
+}
+.affiliation-grid p{
+    margin-top: 10px;
+}
+
+.affiliation-scroll-left{
+    align-self: center;
+    opacity: 0;
+}
+
+.affiliation-scroll-right{
+    align-self: center;
+    opacity: 0;
+    animation: fadeOut 0.5s forwards;
+
+}
+
+
+.affiliation:hover 
+.affiliation-scroll-left, 
+.affiliation:hover .affiliation-scroll-right {
+    animation: fadeIn 0.5s forwards;
+    cursor: pointer;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

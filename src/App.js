@@ -6,6 +6,8 @@ import Steps from './components/Steps';
 import Services from './components/Services';
 import Register from "./components/Register";
 import Team from "./components/Team";
+import Affiliation from "./components/Affiliation";
+import Footer from "./components/Footer";
 
 export default function App(){
     return (
@@ -17,6 +19,8 @@ export default function App(){
            <Services />
            <Register />
            <Team />
+           <Affiliation />
+           <Footer />
         </div>
     );
 }

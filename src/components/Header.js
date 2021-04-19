@@ -5,12 +5,12 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import NavDropDown from 'react-bootstrap/NavDropdown';
-import {IoLogoBuffer} from 'react-icons/io5';
+import {IoMdSpeedometer} from 'react-icons/io';
 
 const Header = function({brand}){
     return (
        <Navbar bg="light" expand="lg" className="sticky-top">
-           <Navbar.Brand> <IoLogoBuffer /> {brand}</Navbar.Brand>
+           <Navbar.Brand> <IoMdSpeedometer /> {brand}</Navbar.Brand>
            <Navbar.Toggle />
            <Navbar.Collapse>
                <Nav className="mr-auto">

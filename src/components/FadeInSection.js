@@ -9,7 +9,6 @@ const FadeInSection = function(props){
             entries.forEach(entry => setVisible(entry.isIntersecting));
         });
         observer.observe(domRef.current);
-        console.log(domRef);
     },[]);
 
     return (
