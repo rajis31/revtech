@@ -70,27 +70,27 @@ const Affiliation = () => {
               </div>
             <div className="affiliation-grid">
                 <div className="affiliation-company">
-                    <FaDragon size={70} color="#A9A9A9" />
+                    <FaDragon size={60} color="#A9A9A9" />
                     <p>DragonData</p>
                 </div>
                 <div className="affiliation-company">
-                    <BiCube size={70} color="#A9A9A9" />
+                    <BiCube size={60} color="#A9A9A9" />
                     <p>Cube3</p>
                 </div>
                 <div className="affiliation-company">
-                    <GiStarSwirl size={70} color="#A9A9A9" />
+                    <GiStarSwirl size={60} color="#A9A9A9" />
                     <p>StarFire</p>
                 </div>
                 <div className="affiliation-company">
-                    <GiVikingHead size={70} color="#A9A9A9" />
+                    <GiVikingHead size={60} color="#A9A9A9" />
                     <p>Vikings</p>
                 </div>
                 <div className="affiliation-company">
-                    <ImShield size={70} color="#A9A9A9" />
+                    <ImShield size={60} color="#A9A9A9" />
                     <p>ShieldTech</p>
                 </div>
                 <div className="affiliation-company">
-                    <SiSeagate size={70} color="#A9A9A9"/>
+                    <SiSeagate size={60} color="#A9A9A9"/>
                     <p>Seagate</p>
                 </div>
             </div>

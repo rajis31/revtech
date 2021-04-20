@@ -23,11 +23,7 @@ const Header = function({brand, showNotification}){
            <Navbar.Brand> <IoMdSpeedometer /> {brand}</Navbar.Brand>
            <Navbar.Toggle />
            <Navbar.Collapse>
-               <Nav className="mr-auto">
-                   <Nav.Link href="#home">Home</Nav.Link>
-                   <Nav.Link href="home">Services</Nav.Link>
-                   <Nav.Link href="home">Contact</Nav.Link>
-               </Nav>
+               <div className="mr-auto"></div>
                <Form inline onSubmit={submitHandler}>
                 <FormControl type="text" placeholder="Email" className="mr-sm-2" />
                 <Button type="submit">Subscribe Here</Button> 

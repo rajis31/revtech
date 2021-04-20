@@ -21,7 +21,7 @@ const Services = function(){
                     {/* Service 1 */}
                     <div className="service">
                         <div className="service-logo">
-                            <FaDatabase color="#fff" size={60} />
+                            <FaDatabase color="#fff" size={50} />
                         </div>
                         <div className="service-title">
                             <p>Database Technology</p>
@@ -39,7 +39,7 @@ const Services = function(){
                     {/* Service 2 */}
                     <div className="service">
                         <div className="service-logo">
-                            <FaInternetExplorer color="#fff" size={60} />
+                            <FaInternetExplorer color="#fff" size={50} />
                         </div>
                         <div className="service-title">
                             <p>Web Development</p>
