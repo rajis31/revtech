@@ -19,6 +19,7 @@
     margin: 0;
 }
 
+/*=== Animation ===*/
 @keyframes fadeIn {
     0% {
         opacity: 0;
