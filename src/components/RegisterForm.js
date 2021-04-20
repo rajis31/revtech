@@ -33,12 +33,12 @@ const RegisterForm = () =>{
             <div className="register-form-title">
                  <p>Quick Registration</p>   
             </div>
-            <label for="name">Your Name (required)</label>
+            <label htmlFor="name">Your Name (required)</label>
             <input  type="text" 
                     placeholder="Name"
                     onChange={(event)=>nameHandler(event)} 
             />
-            <label for="email">Your Email (required)</label>
+            <label htmlFor="email">Your Email (required)</label>
             <input  type="text" 
                     placeholder="Email" 
                     onChange={(event)=>emailHandler(event)} 

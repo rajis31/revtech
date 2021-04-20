@@ -5,7 +5,6 @@ import reactLogo from '../images/reactjs-icon.svg';
 
 const Alertbox = function({message}){
     const [show,showFunc] = useState(true);
-    console.log(reactLogo);
     return (
         <div className="alertbox" 
              style={show ? {display:"block"} : {display: "none"}}
