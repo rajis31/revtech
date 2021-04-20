@@ -5,6 +5,7 @@ const CaseSensitivePathsPlugin = require("case-sensitive-paths-webpack-plugin");
 
 module.exports={
     entry: './src/index.js',
+    mode: "production",
     output: {
         path: path.join(__dirname,'/dist'),
         filename: "./bundle.js"
