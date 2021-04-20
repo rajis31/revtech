@@ -63,7 +63,7 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .process{
         min-height: 2000px;
     }

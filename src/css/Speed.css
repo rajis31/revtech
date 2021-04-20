@@ -35,3 +35,12 @@
         opacity: 1;
     }
 }
+/*=== Responsiveness ===*/
+@media screen and (max-width: 992px){
+    .speed img {
+        display: none;
+    }
+    .speed{
+        background-color: #001f3f;
+    }
+}

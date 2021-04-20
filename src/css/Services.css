@@ -65,12 +65,32 @@
 /*=== Screen Responsiveness ===*/
 @media screen and (max-width: 576px) {
     .services-grid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 768px){
     .services-undershade{
         clip-path: none;
+        padding-bottom: 0;
+    }
+    .services-grid svg{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .service-logo{
+        width: 75px;
+        height: 75px;
+    }
+
+    .service-description{
+        flex-grow: 0;
+    }
+    .service{
+        height: 350px;
     }
 }
