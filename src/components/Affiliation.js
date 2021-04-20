@@ -62,6 +62,9 @@ const Affiliation = () => {
 
     return (
         <div className="affiliation">
+              <div className="affiliation-title">
+                <p>This is Who We Are Partnered With</p>
+              </div>
               <div className="affiliation-scroll-left" onClick={leftArrowHandler}>
                     <BiLeftArrowCircle size={50} color="#FF4136"/>
               </div>
@@ -94,7 +97,7 @@ const Affiliation = () => {
             <div className="affiliation-scroll-right" onClick={rightArrowHandler} >
                     <BiRightArrowCircle size={50} color="#FF4136" />
             </div>
-        </div>
+            </div>
     )
 }
 
