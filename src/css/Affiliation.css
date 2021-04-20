@@ -1,4 +1,5 @@
 .affiliation{
+    padding-top: 50px;
     height: 250px;
     background-color: rgb(34, 28, 36);
     display: flex;
@@ -10,7 +11,7 @@
 .affiliation-grid {
     display: flex;
     flex-direction: row;
-    min-width: 1000px;
+    width: 100%;
     justify-content: space-around;
     text-align: center;
     color: #A9A9A9;
@@ -39,6 +40,10 @@
     cursor: pointer;
 }
 
+.affiliation 
+.affiliation-company:last-child{
+    display: none;
+}
 
 
 @keyframes fadeIn {
@@ -56,5 +61,25 @@
     }
     100%{
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .affiliation{
+        height: max-content;
+    }
+
+    .affiliation-grid{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        text-align: center;
+    }
+    .affiliation-company{
+        display: block !important;
+    }
+    .affiliation-scroll-left,
+    .affiliation-scroll-right {
+        display: none;
     }
 }

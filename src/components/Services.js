@@ -21,7 +21,7 @@ const Services = function(){
                     {/* Service 1 */}
                     <div className="service">
                         <div className="service-logo">
-                            <FaDatabase color="#fff" size={80} />
+                            <FaDatabase color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>Database Technology</p>
@@ -39,7 +39,7 @@ const Services = function(){
                     {/* Service 2 */}
                     <div className="service">
                         <div className="service-logo">
-                            <FaInternetExplorer color="#fff" size={80} />
+                            <FaInternetExplorer color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>Web Development</p>
@@ -58,7 +58,7 @@ const Services = function(){
                     {/* Service 3 */}
                     <div className="service">
                         <div className="service-logo">
-                            <MdComputer color="#fff" size={80} />
+                            <MdComputer color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>IT Managed Services</p>
@@ -76,7 +76,7 @@ const Services = function(){
                     {/* Service 4 */}
                     <div className="service">
                         <div className="service-logo">
-                            <IoGitNetwork color="#fff" size={80} />
+                            <IoGitNetwork color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>Network & Servers </p>
@@ -94,7 +94,7 @@ const Services = function(){
                     {/* Service 5 */}
                     <div className="service">
                     <div className="service-logo">
-                            <GiArtificialIntelligence color="#fff" size={80} />
+                            <GiArtificialIntelligence color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>AI</p>
@@ -113,7 +113,7 @@ const Services = function(){
                     {/* Service 6 */}
                     <div className="service">
                         <div className="service-logo">
-                            <GiTalk  color="#fff" size={80} />
+                            <GiTalk  color="#fff" size={60} />
                         </div>
                         <div className="service-title">
                             <p>Messaging Technology</p>

@@ -86,7 +86,7 @@ const Affiliation = () => {
                     <ImShield size={70} color="#A9A9A9" />
                     <p>ShieldTech</p>
                 </div>
-                <div className="affiliation-company" style={{display:"none"}}>
+                <div className="affiliation-company">
                     <SiSeagate size={70} color="#A9A9A9"/>
                     <p>Seagate</p>
                 </div>

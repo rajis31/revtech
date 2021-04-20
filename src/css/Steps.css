@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 1200px;
     display: flex;
-    flex-direction: column;
     position: relative;
     background-color: #000;
 }
@@ -62,4 +61,21 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .process{
+        min-height: 2000px;
+    }
+    .process-steps {
+        display: flex;
+        flex-direction: column;
+    }
+    .process-connector{
+        display: none !important;
+    }
+
+    .process .undershade {
+        clip-path: none;
+    }
 }
